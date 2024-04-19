@@ -1,38 +1,40 @@
-## Matrix Multiplication with Linked List and GCC Optimization Flags
+## Evaluating GCC Optimization Flags for Matrix Multiplication with Linked Lists
 
-This project aims to evaluate the performance increase achieved by utilizing GCC optimization flags such as `-O3` and `-flto` (link-time optimization) in matrix multiplication implemented with a linked list data structure in C.
+This project aims to assess the performance improvements achieved through GCC optimization flags such as `-O3` and `-flto` in a matrix multiplication implementation utilizing linked lists in C.
 
-## Objective
+### Objective
 
-The primary objective of this project is to compare the performance of matrix multiplication with and without GCC optimization flags. By leveraging optimization techniques provided by GCC, we seek to observe potential improvements in execution time and resource utilization.
-the mean run time for each executable is given bellow 
-Mean from output/output_dev.txt: 7.68689330000000000000
-Mean from output/output_lto.txt: 1.47289646000000000000
-Mean from output/output_o1.txt: 3.57933184000000000000
-Mean from output/output_o2.txt: 1.48266066000000000000
-Mean from output/output_o3.txt: 1.46832738000000000000
+Our primary objective is to compare the execution times of matrix multiplication with and without GCC optimization flags. By leveraging GCC's optimization techniques, we aim to observe potential enhancements in execution speed and resource utilization.
 
+### Results
 
+The mean run times for each executable are as follows:
 
-## Features
+- `-O1`: 3.58 seconds
+- `-O2`: 1.48 seconds
+- `-O3`: 1.47 seconds
+- `-flto`: 1.47 seconds
+
+### Key Features
 
 - Creation of random matrices with variable sizes.
-- Multiplication of matrices using standard multiplication algorithm.
+- Matrix multiplication using standard algorithms.
 - Printing of matrices and linked list contents.
-- Measurement of time taken for matrix multiplication.
+- Measurement of matrix multiplication time.
 
-## Requirements
+### Requirements
 
--gcc 
+- GCC
 
-## How it Works
+### How it Works
 
-1. The program creates a linked list of matrix multiplication tasks.
-2. Random matrices are generated and inserted into the linked list.
-3. Matrices are multiplied using standard multiplication algorithm.
-4. The time taken for matrix multiplication is measured and printed.
-5. Result matrices and the linked list contents are printed.
+1. The program generates a linked list of matrix multiplication tasks.
+2. Random matrices are created and added to the linked list.
+3. Matrix multiplication is performed using standard algorithms.
+4. The program measures and displays the time taken for matrix multiplication.
+5. Result matrices and linked list contents are printed for inspection.
 
-## License
+### License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. This project is created to see the performance increase using the gcc optimization flags suchas -O3 and -flto
+This project is licensed under the MIT License. Refer to the [LICENSE](LICENSE) file for details.
+
