@@ -9,7 +9,7 @@ Our primary objective is to compare the execution times of matrix multiplication
 ### Results
 
 The mean run times for each executable are as follows:
-
+- `-dev`:7.68689330000000000000 seconds
 - `-O1`: 3.58 seconds
 - `-O2`: 1.48 seconds
 - `-O3`: 1.47 seconds
