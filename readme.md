@@ -24,7 +24,7 @@ The mean run times for each executable are as follows:
 
 ### Requirements
 
-- GCC
+- GCC bc
 
 ### How it Works
 
